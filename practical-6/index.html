@@ -14,7 +14,7 @@
       }
       .container {
         width: 350px;
-        height: 450px;
+        height: 600px;
         background-color: white;
         border: 2px solid green;
         border-radius: 15px;
@@ -28,6 +28,33 @@
         text-align: center;
         padding-top: 10px;
       }
+      .image {
+        width: 310px;
+      }
+
+      .image img {
+        width: 100%;
+        border-radius: 10px;
+        justify-content: center;
+        margin-left: 20px;
+        margin-top: 10px;
+        height: 200px;
+      }
+      .readMore {
+        text-align: center;
+        margin-top: 10px;
+      }
+      .btn {
+        display: inline-block;
+        background-color: red;
+        padding: 10px 120px 10px 120px;
+        border-radius: 10px;
+        text-decoration: none;
+        color: white;
+      }
+      .btn:hover {
+        background-color: blue;
+      }
     </style>
   </head>
   <body>
@@ -36,6 +63,9 @@
     </h1>
     <div class="main">
       <div class="container">
+        <div class="image">
+          <img src="./images/html.png" alt="html" />
+        </div>
         <h2 class="head2">Introduction to HTML</h2>
         <p class="p">
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi
@@ -45,9 +75,17 @@
           repellendus nemo veniam quis ratione dolorum alias dolores provident
           ipsa. Laboriosam repellat voluptas voluptatibus inventore!
         </p>
+        <div class="readMore">
+          <a class="btn" href="../practical-5/htmlDescription.html"
+            >Read More</a
+          >
+        </div>
       </div>
 
       <div class="container">
+        <div class="image">
+          <img src="./images/css.png" alt="html" />
+        </div>
         <h2 class="head2">Introduction to CSS</h2>
         <p class="p">
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi
@@ -57,9 +95,15 @@
           repellendus nemo veniam quis ratione dolorum alias dolores provident
           ipsa. Laboriosam repellat voluptas voluptatibus inventore!
         </p>
+        <div class="readMore">
+          <a class="btn" href="../practical-5/cssDescription.html">Read More</a>
+        </div>
       </div>
       <div class="container">
-        <h2 class="head2">Introduction to JQUERY</h2>
+        <div class="image">
+          <img src="./images/js.png" alt="html" />
+        </div>
+        <h2 class="head2">Introduction to JAVASCRIPT</h2>
         <p class="p">
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi
           laboriosam repellendus quas eligendi at. Dolore voluptates, magni
@@ -68,8 +112,14 @@
           repellendus nemo veniam quis ratione dolorum alias dolores provident
           ipsa. Laboriosam repellat voluptas voluptatibus inventore!
         </p>
+        <div class="readMore">
+          <a class="btn" href="../practical-5/jsDescription.html">Read More</a>
+        </div>
       </div>
       <div class="container">
+        <div class="image">
+          <img src="./images/bootstrap.jfif" alt="html" />
+        </div>
         <h2 class="head2">Introduction to BOOTSTRAP</h2>
         <p class="p">
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi
@@ -79,6 +129,11 @@
           repellendus nemo veniam quis ratione dolorum alias dolores provident
           ipsa. Laboriosam repellat voluptas voluptatibus inventore!
         </p>
+        <div class="readMore">
+          <a class="btn" href="../practical-5/bootstrapDescription.html"
+            >Read More</a
+          >
+        </div>
       </div>
     </div>
   </body>
